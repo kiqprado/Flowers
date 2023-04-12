@@ -4,10 +4,15 @@
 }
 
 body {
-  background-color: black;
+  width: 100vw;
+  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: flex-start;
+  background-color: black;
 }
 
-
+.canvas {
+  width: 600px;
+  height: 300px;
+}

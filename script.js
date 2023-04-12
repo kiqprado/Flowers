@@ -3,6 +3,8 @@ window.addEventListener('load', windowLoadHandler)
 function windowLoadHandler() {
   var theCanvas = document.getElementById('flower')
   var context = theCanvas.getContext('2d')
+  var w = (theCanvas.width = window.innerWidth)
+  var h = (theCanvas.height = window.innerHeight)
 
   var bufferCanvas = document.createElement('canvas')
   bufferCanvas.width = theCanvas.width
